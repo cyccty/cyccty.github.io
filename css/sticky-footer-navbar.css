@@ -1,0 +1,14 @@
+/* #footer{position:absolute;left:0;bottom:0;width:100%;height:40px;修改参数改变白色框尺寸*/
+/* #footer > .container{padding:0px} 修改参数改变文字位置*/
+ html{position:relative;min-height:100%}
+ body{margin-bottom:0px}
+ #wrap{min-height:100%;height:auto;height:100%;margin:0 auto 0;padding:0 0 90px}
+ #footer{position:absolute;left:0;bottom:0;width:100%;height:50px;
+   background-color:rgba(245,245,245,0.4);
+   /*background-color:rgb(245,245,245);*/
+   font-family:'CMS', 'Droid Sans', Helvetica, Arial, sans-serif;
+   font-size:90%;text-align:right}
+ body > .container{padding:90px 15px 0}
+ #footer > .container{padding:0px 0px 0px}
+ code{font-size:10%}
+ #home{margin-top:4px;font-size:22px}
